@@ -64,15 +64,15 @@ def Task5():
     # Напишите программу, которая принимает на вход координаты двух точек 
     # и находит расстояние между ними в 2D пространстве.
 
+    import math
     ax = float(input('Введите A(x): '))
     ay = float(input('Введите A(y): '))
     bx = float(input('Введите B(x): '))
     by = float(input('Введите B(y): '))
-    import math
     print(f'Расстояние между точками = {round(math.sqrt((bx - ax) ** 2 + (by - ay) ** 2), 5)}')
 
-# Task1()
+Task1()
 # Task2()
 # Task3()
 # Task4()
-Task5()
+# Task5()
